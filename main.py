@@ -94,18 +94,18 @@ def main(message):
 				bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text='''𝐖𝐚𝐢𝐭 𝐟𝐨𝐫 𝐩𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 
 𝐁𝐲 ➜ <a href='t.me/BROOMKRO'>𝗟𝗢𝗥𝗗「𝐗𝐃」-「𝐃𝐂」</a> ''', reply_markup=mes)
 				msg = f'''
-<a href='t.me/Approved_Raven'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
-<a href='t.me/Approved_Raven'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/Approved_Raven'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/Approved_Raven'>┗━━━━━━━⊛</a>
-<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Stripe Charge 5$</code>		
-<a href='t.me/Approved_Raven'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
+<a href='t.me/BROOMKRO'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅
+<a href='t.me/BROOMKRO'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/BROOMKRO'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/BROOMKRO'>┗━━━━━━━⊛</a>
+<a href='t.me/BROOMKRO'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Stripe Charge 5$</code>		
+<a href='t.me/BROOMKRO'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Payment Successful 🎉</code>
 
-<a href='t.me/Approved_Raven'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
-<a href='t.me/Approved_Raven'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
-<a href='t.me/Approved_Raven'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
+<a href='t.me/BROOMKRO'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
+<a href='t.me/BROOMKRO'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
+<a href='t.me/BROOMKRO'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
 
-<a href='t.me/Approved_Raven'>-</a> 𝐓𝐢𝐦𝐞: <code>1{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
-<a href='t.me/Approved_Raven'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/Approved_Raven'>⏤͟͞𝑮𝑺𝑰𝑿 𓆩 𝑪𝑯𝑲 𓆪ꪾᶜⁿꪜ</a>'''
+<a href='t.me/BROOMKRO'>-</a> 𝐓𝐢𝐦𝐞: <code>1{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝</code> 
+<a href='t.me/BROOMKRO'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/BROOMKRO'>𝗟𝗢𝗥𝗗「𝐗𝐃」-「𝐃𝐂」</a>'''
 				print(last)
 				if 'success' in last or 'Processor Declined - Fraud Suspected' in last or 'Declined - Call Issuer' in last or 'Stripe Error: Your card does not support this type of purchase.' in last or "Stripe Error: Your card's security code is invalid." in last:
 					live += 1
@@ -114,36 +114,36 @@ def main(message):
 					incorrect+=1
 				elif 'security code is incorrect.' in last:
 					msg = f'''
-<a href='t.me/Approved_Raven'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅ 
-<a href='t.me/Approved_Raven'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/Approved_Raven'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/Approved_Raven'>┗━━━━━━━⊛</a>
-<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Stripe Charge 5$</code>		
-<a href='t.me/Approved_Raven'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>AUTH Completed 🟢</code>
+<a href='t.me/BROOMKRO'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅ 
+<a href='t.me/BROOMKRO'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/BROOMKRO'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/BROOMKRO'>┗━━━━━━━⊛</a>
+<a href='t.me/BROOMKRO'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Stripe Charge 5$</code>		
+<a href='t.me/BROOMKRO'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>AUTH Completed 🟢</code>
 
-<a href='t.me/Approved_Raven'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
-<a href='t.me/Approved_Raven'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
-<a href='t.me/Approved_Raven'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
+<a href='t.me/BROOMKRO'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
+<a href='t.me/BROOMKRO'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
+<a href='t.me/BROOMKRO'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
 
-<a href='t.me/Approved_Raven'>-</a> 𝐓𝐢𝐦𝐞: <code>1{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝 </code>
-<a href='t.me/Approved_Raven'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/Approved_Raven'>⏤͟͞𝑮𝑺𝑰𝑿 𓆩 𝑪𝑯𝑲 𓆪ꪾᶜⁿꪜ</a>'''
+<a href='t.me/BROOMKRO'>-</a> 𝐓𝐢𝐦𝐞: <code>1{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝 </code>
+<a href='t.me/BROOMKRO'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/BROOMKRO'>𝗟𝗢𝗥𝗗「𝐗𝐃」-「𝐃𝐂」</a>'''
 					live += 1
 					bot.reply_to(message, msg)
 				elif 'Card Not Activated' in last:
 					incorrect+=1
 				elif 'security code is incorrect.' in last or 'Stripe Error: Your card has insufficient funds.' in last or 'tree_d' in last:
 					msg = f'''
-<a href='t.me/Approved_Raven'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅!!
-<a href='t.me/Approved_Raven'>┏━━━━━━━━━━━⍟</a>			
-<a href='t.me/Approved_Raven'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/Approved_Raven'>┗━━━━━━━⊛</a>
-<a href='t.me/Approved_Raven'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Stripe Charge 5$</code>		
-<a href='t.me/Approved_Raven'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Insufficient Funds ❎</code>
+<a href='t.me/BROOMKRO'>-</a> 𝐀𝐩𝐩𝐫𝐨𝐯𝐞𝐝 ✅!!
+<a href='t.me/BROOMKRO'>┏━━━━━━━━━━━⍟</a>			
+<a href='t.me/BROOMKRO'>┃</a>𝐂𝐂 <code>{cc}</code><a href='t.me/BROOMKRO'>┗━━━━━━━⊛</a>
+<a href='t.me/BROOMKRO'>-</a> 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: <code>Stripe Charge 5$</code>		
+<a href='t.me/BROOMKRO'>-</a> 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞: <code>Insufficient Funds ❎</code>
 
-<a href='t.me/Approved_Raven'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
-<a href='t.me/Approved_Raven'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
-<a href='t.me/Approved_Raven'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
+<a href='t.me/BROOMKRO'>-</a> 𝐈𝐧𝐟𝐨: <code>{cc[:6]}-{card_type} - {brand}</code>
+<a href='t.me/BROOMKRO'>-</a> 𝐂𝐨𝐮𝐧𝐭𝐫𝐲: <code>{country} - {country_flag}</code>
+<a href='t.me/BROOMKRO'>-</a> 𝐁𝐚𝐧𝐤: <code>{bank}</code>
 
-<a href='t.me/Approved_Raven'>-</a> 𝐓𝐢𝐦𝐞: <code>2{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝 </code>
-<a href='t.me/Approved_Raven'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/Approved_Raven'>⏤͟͞𝑮𝑺𝑰𝑿 𓆩 𝑪𝑯𝑲 𓆪ꪾᶜⁿꪜ</a>'''
+<a href='t.me/BROOMKRO'>-</a> 𝐓𝐢𝐦𝐞: <code>2{"{:.1f}".format(execution_time)} 𝐬𝐞𝐜𝐨𝐧𝐝 </code>
+<a href='t.me/BROOMKRO'>-</a> 𝐁𝐨𝐭 𝐀𝐛𝐨𝐮𝐭: <a href='t.me/BROOMKRO'>𝗟𝗢𝗥𝗗「𝐗𝐃」-「𝐃𝐂」</a>'''
 					live += 1
 					bot.reply_to(message, msg)
 				elif 'Card Not Activated' in last:
